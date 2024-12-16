@@ -6,3 +6,5 @@
 This course is based on basic HTML and CSS, featuring activities and challenges.
 
 It includes 100 coding exercises with HTML and CSS, culminating in building a YouTube clone.
+
+ 
