@@ -22,3 +22,17 @@
 .video-views {
   display: block;
 }
+
+
+.section-1{
+  display: block;
+  margin-bottom: 10px;
+}
+.section-2{
+  display: inline-block;
+  vertical-align: top;
+  background-color: cornflowerblue;
+}
+.section-2 p{
+  padding-left: 2px;
+}
