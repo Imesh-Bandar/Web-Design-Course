@@ -1,35 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title of a website -->
+    <title>Youtube Clone</title>
+    <!-- style sheet link -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./css/main.css" />
-  <title>Youtube Clone</title>
-</head>
+  <body>
+    <!-- Search Box Area  start-->
+    <input type="text" class="serach-area" placeholder="Search Something" />
+    <!-- Search Area End -->
 
-<body>
-  <div class="section-1">
-    <input type="text" class="search" placeholder="Search Something" />
-  </div>
+    <!-- App Card Section Start -->
+    <!-- Main Card Area Start-->
 
-  <div class="section-2">
-    <img class="thumbnail" src="./img/thumbnail.avif" alt="thumbnail-name" title="thumbnail-name" />
-    <p class="video-author">Imesh Bandara</p>
-    <p class="video-title">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit
-    </p>
-    <p class="video-views">1.2M views</p>
-  </div>
-  <div class="section-2">
-    <img class="thumbnail" src="./img/thumbnail.avif" alt="thumbnail-name" title="thumbnail-name" />
-    <p class="video-author">Imesh Bandara</p>
-    <p class="video-title">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit
-    </p>
-    <p class="video-views">1.2M views</p>
-  </div>
+    <section class="app-card-area">
+      <!-- Card 1 Start -->
+      <div class="main-card-area">
+        <div class="video-thumbnail-image">
+          <img src="./img/Channel-Thumbnail.avif" alt="video thumbnail image" />
+        </div>
+        <div class="video-thumbnail-info">
+          <!-- ChannelProfile -->
+          <div class="channel-profile">
+            <img src="./img/Channel-Profile.jpg" alt="" srcset="" />
+          </div>
+          <!-- ChannelProfile End -->
+          <!-- Video Title -->
+          <div class="video-infomation">
+            <!-- Video title -->
+            <p>How to File Upload with Laravel Live wire v3</p>
+            <!-- channel Name -->
+            <p>Viwes &dot; 3M 6mounth ago</p>
 
-</body>
+            <p>@John Deavide</p>
+            <!-- views -->
+          </div>
+        </div>
+      </div>
+      <!-- Card 1 End -->
 
+      <!-- Card 2 Start -->
+      <div class="main-card-area">
+        <div class="video-thumbnail-image">
+          <img src="./img/thumbnail.avif" alt="video thumbnail image" />
+        </div>
+        <div class="video-thumbnail-info">
+          <!-- ChannelProfile -->
+          <div class="channel-profile">
+            <img src="./img/Channel-Profile.jpg" alt="" srcset="" />
+          </div>
+          <!-- ChannelProfile End -->
+          <!-- Video Title -->
+          <div class="video-infomation">
+            <!-- Video title -->
+            <p>JavaScript Full Course 2024</p>
+            <!-- channel Name -->
+            <p>Viwes &dot; 3M 6mounth ago</p>
+
+            <p>@John Deavide</p>
+            <!-- views -->
+          </div>
+        </div>
+      </div>
+      <!-- Card 2 End -->
+    </section>
+
+    <!-- Main Card Area End -->
+  </body>
 </html>
