@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NESTED LAYOUT</title>
+    <style>
+      .main-div {
+        background-color: burlywood;
+        width: 308px;
+        height: 150px;
+      }
+
+      .blue-div {
+        display: inline-block;
+        background-color: blue;
+        width: 100px;
+        height: 150px;
+        vertical-align: middle;
+      }
+
+      .red-div {
+        background-color: red;
+        width: 100px;
+        height: 47.5px;
+        display: inline-block;
+      }
+
+      .main-container {
+        margin-top: 2px;
+        width: 500px;
+      }
+
+      .img2 {
+        display: inline-block;
+        width: 100px;
+      }
+
+      .img2 img {
+        width: 60px;
+        margin-left: 5px;
+        border-radius: 50px;
+      }
+
+      .name {
+        display: inline-block;
+      }
+
+      .button {
+        width: 100px;
+        vertical-align: middle;
+        display: inline-block;
+      }
+
+      button {
+        width: 100px;
+        height: 30px;
+        background-color: rgb(0, 153, 255);
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-weight: 100;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        vertical-align: middle;
+        margin-left: 170px;
+        border-radius: 50px;
+        margin-bottom: 50px;
+      }
+
+      p {
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+
+      .name-1 {
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      .d {
+        color: gray;
+      }
+
+      .main-container-layout {
+        display: block;
+
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+
+      .main-layout {
+        width: 600px;
+        border-radius: 5px;
+        cursor: pointer;
+        box-shadow: 1px 1px 6px gray;
+        margin-top: 8px;
+        display: inline-block;
+      }
+
+      .sub-layout {
+        display: inline-block;
+        margin-left: 5px;
+        margin-top: 5px;
+      }
+
+      .sub-layout img {
+        width: 100px;
+      }
+
+      .sub-layout p {
+        display: block;
+
+        margin-bottom: 0px;
+        line-height: 29px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Cat Card -->
+    <div class="main-div">
+      <div class="blue-div">
+        <img src="../YoutubeClone/img/Channel-Profile.jpg" alt="" srcset="" />
+      </div>
+      <div class="blue-div s-1">
+        <div class="red-div"></div>
+        <div class="red-div"></div>
+        <div class="red-div"></div>
+      </div>
+      <div class="blue-div"></div>
+    </div>
+
+    <!-- Card Lay out -->
+    <div class="main-container">
+      <div class="img2">
+        <img src="../YoutubeClone/img/Channel-Profile.jpg" alt="" srcset="" />
+      </div>
+      <div class="name">
+        <p class="name-1">Oliver</p>
+        <p class="d">The Person</p>
+        <p class="d">Popular</p>
+      </div>
+      <div class="button">
+        <button>Follow</button>
+      </div>
+    </div>
+    <div class="main-container">
+      <div class="img2">
+        <img src="../YoutubeClone/img/Channel-Profile.jpg" alt="" srcset="" />
+      </div>
+      <div class="name">
+        <p class="name-1">Oliver</p>
+        <p class="d">The Person</p>
+        <p class="d">Popular</p>
+      </div>
+      <div class="button">
+        <button>Follow</button>
+      </div>
+    </div>
+    <div class="main-container">
+      <div class="img2">
+        <img src="../YoutubeClone/img/Channel-Profile.jpg" alt="" srcset="" />
+      </div>
+      <div class="name">
+        <p class="name-1">Jhon</p>
+        <p class="d">The Person</p>
+        <p class="d">Popular</p>
+      </div>
+      <div class="button">
+        <button>Follow</button>
+      </div>
+    </div>
+    <div class="main-container-layout">
+      <div class="main-layout">
+        <div class="sub-layout">
+          <img
+            src="../YoutubeClone/img/Channel-Thumbnail.avif"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div class="sub-layout">
+          <p>How to compete against cs degree(As a self taught dev)</p>
+          <p>SuperSimpleDev</p>
+          <p>1.5K views-4 months ago</p>
+        </div>
+      </div>
+      <div class="main-layout">
+        <div class="sub-layout">
+          <img
+            src="../YoutubeClone/img/Channel-Thumbnail.avif"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div class="sub-layout">
+          <p>How to compete against cs degree(As a self taught dev)</p>
+          <p>SuperSimpleDev</p>
+          <p>1.5K views-4 months ago</p>
+        </div>
+      </div>
+      <div class="main-layout">
+        <div class="sub-layout">
+          <img
+            src="../YoutubeClone/img/Channel-Thumbnail.avif"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div class="sub-layout">
+          <p>How to compete against cs degree(As a self taught dev)</p>
+          <p>SuperSimpleDev</p>
+          <p>1.5K views-4 months ago</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
