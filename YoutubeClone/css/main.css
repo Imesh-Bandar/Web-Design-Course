@@ -64,9 +64,14 @@
   font-family: 'Arial';
   font-size: 12px;
   line-height: 3px;
+  margin-bottom: 16px;
 }
 .video-views{
   font-family: 'Arial';
   font-size: 12px;
   text-align: left;
+}
+p{
+  margin-top: 0px;
+  margin-bottom: 12px;
 }
